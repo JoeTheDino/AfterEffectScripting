@@ -1,0 +1,4 @@
+//Parenting with Delay
+
+delay = 0.2;
+parent.fromWorld(toWorld([0,0,0],time- delay));

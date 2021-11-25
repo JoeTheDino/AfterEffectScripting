@@ -1,0 +1,7 @@
+//Auto Fade a layer
+
+
+dur = 0.25;
+fadeIn = ease(time, inPoint, inPoint + dur, 0, value);
+fadeOut = ease(time, outPoint -dur, outPoint, value, 0);
+Math.min(fadeIn, fadeOut);
